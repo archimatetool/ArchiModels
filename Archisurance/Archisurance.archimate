@@ -99,8 +99,7 @@
       <element xsi:type="archimate:ApplicationComponent" id="1813" name="Bank System"/>
       <element xsi:type="archimate:ApplicationService" id="1414" name="Claim InfoServ"/>
       <element xsi:type="archimate:ApplicationService" id="1407" name="CIS">
-        <documentation>Customer Information Service
-</documentation>
+        <documentation>Customer Information Service</documentation>
       </element>
       <element xsi:type="archimate:ApplicationService" id="935" name="Policy Creation Service"/>
     </folder>
