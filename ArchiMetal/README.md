@@ -8,5 +8,5 @@ This Case Study demonstrates the value of the ArchiMate 2.1 modeling language fo
 
 The Case Study is about a fictitious manufacturer named ArchiMetal. Through high-level architecture modeling, the ArchiMate language illuminates the coherence between an organization, and its processes, applications, and infrastructure. This Case Study presents examples of ArchiMate models that can be elaborated as necessary for analysis, communication, decision support, and implementation.
 
-### More Information
-TBD
+### Notes
+The *ArchiMetal.xma* file is the original BiZZdesign Architect file from which this Archi file was converted.
