@@ -172,7 +172,6 @@
         <element xsi:type="archimate:TriggeringRelationship" id="659" source="572" target="580"/>
         <element xsi:type="archimate:TriggeringRelationship" id="661" source="580" target="588"/>
         <element xsi:type="archimate:TriggeringRelationship" id="732" source="650" target="721"/>
-        <element xsi:type="archimate:AccessRelationship" id="712" name="update" source="588" target="674"/>
         <element xsi:type="archimate:TriggeringRelationship" id="2d89d4e7" source="612" target="722"/>
         <element xsi:type="archimate:AccessRelationship" id="90702769" name="update" source="588" target="674"/>
       </folder>
@@ -717,8 +716,8 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="3780" textAlignment="2" targetConnections="3799" archimateElement="588">
           <bounds x="510" y="20" width="120" height="60"/>
-          <sourceConnection xsi:type="archimate:Connection" id="3814" source="3780" target="e1dfdab4" relationship="712"/>
           <sourceConnection xsi:type="archimate:Connection" id="e43d33f7" source="3780" target="3786" relationship="90702769"/>
+          <sourceConnection xsi:type="archimate:Connection" id="0ee6c08f" source="3780" target="e1dfdab4" relationship="90702769"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="3791" textAlignment="2" targetConnections="3810 3807" archimateElement="514">
@@ -762,7 +761,7 @@
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="3807" source="3790" target="3791" relationship="758"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="e1dfdab4" textAlignment="2" targetConnections="3814" archimateElement="674">
+      <child xsi:type="archimate:DiagramObject" id="e1dfdab4" textAlignment="2" targetConnections="0ee6c08f" archimateElement="674">
         <bounds x="680" y="302" width="120" height="55"/>
       </child>
     </element>
