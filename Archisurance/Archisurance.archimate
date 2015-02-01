@@ -163,7 +163,6 @@
         <element xsi:type="archimate:RealisationRelationship" id="1434" source="588" target="1226"/>
         <element xsi:type="archimate:RealisationRelationship" id="1430" source="564" target="1202"/>
         <element xsi:type="archimate:RealisationRelationship" id="1432" source="572" target="1214"/>
-        <element xsi:type="archimate:RealisationRelationship" id="1436" source="580" target="1214"/>
         <element xsi:type="archimate:TriggeringRelationship" id="655" source="651" target="564"/>
         <element xsi:type="archimate:TriggeringRelationship" id="1335" source="1302" target="1311"/>
         <element xsi:type="archimate:TriggeringRelationship" id="657" source="564" target="572"/>
