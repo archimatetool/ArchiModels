@@ -13,10 +13,10 @@
         <xs:documentation>
             XSD Data File Information
             -------------------------
-            Author:         The Open Group ArchiMate Forum
+            Author:         The Open Group ArchiMate Exchange Team
             Start date:     2 May 2013
-            Revision date:  10 December 2014
-            XSD Version:    0.602
+            Revision date:  16 February 2015
+            XSD Version:    0.700
             Status:         Working Draft
             Description:    The Open Group ArchiMate Open Exchange Format
         </xs:documentation>
@@ -78,21 +78,9 @@ cover pages.
     </xs:annotation>
 
 
-    <!-- ========================== Namespaced extension Group ================================= -->
+    <!-- =========================== Declaration of the Root Model Element ========================== -->
 
-    <xs:group name="grp.any">
-        <xs:annotation>
-            <xs:documentation>
-                Any namespaced element from any namespace may be included within an "any" element. The
-                namespace for the imported element must be defined in the instance, and the schema must be imported.
-                The extension has a definition of "strict" i.e. they must have their own namespace.
-            </xs:documentation>
-        </xs:annotation>
-
-        <xs:sequence>
-            <xs:any namespace="##other" processContents="strict" minOccurs="0" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:group>
+    <xs:element name="model" type="modelType" />
 
 
     <!-- ==================================== Model Type ================================= -->
@@ -103,13 +91,15 @@ cover pages.
                 This is the root model element.
                 It is a container for the elements, relationships, diagrams and organisations of the model.
                 
+                The "metadata" element is the optional metadata for the model.
                 The "name" element is the name of the model.
                 The "documentation" element is for the documentation of the model.
                 The "properties" element is optional and is for any property instance of the model.
                 The "elements" element is mandatory and is a container for all elements.
                 The "relationships" element is optional and is a container for any relationships.
-                The "organisation" element is optional and is a container for structural organisation of model elements and relationships.
+                The "organization" element is optional and is a container for structural organisation of model elements and relationships.
                 The "propertydefs" element is optional and is a container for any property definitions.
+                The "views" element is optional and is a container for any Views.
             </xs:documentation>
         </xs:annotation>
 
@@ -127,10 +117,11 @@ cover pages.
         </xs:sequence>
         <xs:attribute name="identifier" type="xs:ID" use="required" />
         <xs:attribute name="version" type="xs:string" use="optional" />
-        <xs:anyAttribute namespace ="##other" processContents ="strict" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
     </xs:complexType>
+
     
-    <!-- ==================================== Element Types ================================= -->
+    <!-- ==================================== Elements Types ================================= -->
 
     <xs:complexType name="elementsType">
         <xs:annotation>
@@ -156,284 +147,11 @@ cover pages.
             <xs:group ref="grp.any" />
         </xs:sequence>
         <xs:attribute name="identifier" use="required" type="xs:ID" />
-        <xs:anyAttribute namespace ="##other" processContents ="strict" />
-    </xs:complexType>
-    
-    <!-- ==================================== Relations Types ================================= -->
-
-    <xs:complexType name="relationshipsType">
-        <xs:annotation>
-            <xs:documentation>
-                This is a container for the relationships of the model.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="relationship" type="relationshipType" minOccurs="0" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complexType>
-    
-    <xs:complexType name="relationshipType">
-        <xs:annotation>
-            <xs:documentation>
-                A base relationship type that can be extended by concrete ArchiMate types.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-        <xs:attribute name="identifier" type="xs:ID" use="required" />
-        <xs:attribute name="source" type="xs:IDREF" use="required" />
-        <xs:attribute name="target" type="xs:IDREF" use="required" />
-        <xs:anyAttribute namespace ="##other" processContents ="strict" />
-    </xs:complexType>
-
-    <!-- ==================================== Properties Types ================================= -->
-
-    <xs:complexType name="propertiesDefinitionsType">
-        <xs:annotation>
-            <xs:documentation>
-                This is a container for all the Property definition types used globally in the model.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="propertydef" type="propertyDefinitionType" minOccurs="1" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complexType>
-    
-    <xs:complexType name="propertyDefinitionType">
-        <xs:annotation>
-            <xs:documentation>
-                A Property definition type containg its unique identifier, name, and data type.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute name="identifier" type="xs:ID" use="required" />
-                <xs:attribute name="name" type="xs:string" use="required" />
-                <xs:attribute name="type" type="dataType" use="required" />
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-
-    <xs:complexType name="propertiesType">
-        <xs:annotation>
-            <xs:documentation>
-                A container for all of the Property value instances for an element/relationship.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="property" type="propertyType" minOccurs="0" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complexType>
-
-    <xs:complexType name="propertyType">
-        <xs:annotation>
-            <xs:documentation>
-                A Property instance type declaring the reference to a Property definition and containing the Property value.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="value" type="langStringType" minOccurs="1" maxOccurs="unbounded" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-        <xs:attribute name="identifierref" type="xs:IDREF" use="required" />
-    </xs:complexType>
-    
-    <xs:simpleType name="dataType">
-        <xs:annotation>
-            <xs:documentation>
-                An enumeration of data types.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="string" />
-            <xs:enumeration value="boolean" />
-            <xs:enumeration value="currency" />
-            <xs:enumeration value="date" />
-            <xs:enumeration value="number" />
-        </xs:restriction>
-    </xs:simpleType>
-
-    <!-- ==================================== Organizational Types ================================= -->
-
-    <xs:complexType name="organizationType">
-        <xs:annotation>
-            <xs:documentation>
-                This is a container for organizing elements and relationship references in the model using items.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:choice maxOccurs="unbounded">
-            <xs:element name="item" type="itemType" minOccurs="0" maxOccurs="unbounded" />
-        </xs:choice>
-    </xs:complexType>
-
-    <xs:complexType name="itemType">
-        <xs:annotation>
-            <xs:documentation>
-                An item element represents a structural node in a particular organization.
-                An item element may be a parent or sibling of other Item elements,
-                each one representing a unique structural node.
-                
-                An item element may reference an ArchiMate element, ArchiMate relationship,
-                or nothing (in which case it is a structural container)
-
-                An organization has no meaning unless it has at least one Item element.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="item" type="itemType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-        <xs:attribute name="identifier" type="xs:ID" use="optional" />
-        <xs:attribute name="identifierref" type="xs:IDREF" use="optional" />
         <xs:anyAttribute namespace="##other" processContents="strict" />
     </xs:complexType>
-
-    <!-- =========================== Metadata Type ========================== -->
-
-    <xs:complexType name="MetadataType">
-        <xs:annotation>
-            <xs:documentation>
-                An instance of the metadata element contains data structures
-                that declare descriptive information about a metadata element's
-                parent only.
-
-                One or more different metadata models may be declared as
-                child extensions of a metadata element.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="schema" type="xs:string" minOccurs="0" maxOccurs="1" />
-            <xs:element name="schemaversion" type="xs:string" minOccurs="0" maxOccurs="1" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-    </xs:complexType>
-
-    <!-- =========================== Other Types ========================== -->
-
-    <xs:complexType name="langStringType">
-        <xs:annotation>
-            <xs:documentation>
-                A base string type for multi-language strings
-            </xs:documentation>
-        </xs:annotation>
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute ref="xml:lang" />
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-
-    <!-- =========================== Views ========================== -->
-
-    <xs:complexType name="viewsType">
-        <xs:annotation>
-            <xs:documentation>
-                This is a container for all of the Views in the model.
-                Must contain at least one View.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="view" type="viewType" minOccurs="1" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complexType>
     
-    <xs:complexType name="viewType">
-        <xs:annotation>
-            <xs:documentation>
-                Container for a View type.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="node" type="nodeType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-        <xs:attribute name="identifier" use="required" type="xs:ID" />
-        <xs:attribute name="viewpoint" use="optional" type="viewpointsEnum" />
-        <xs:anyAttribute namespace ="##other" processContents ="strict" />
-    </xs:complexType>
 
-    <xs:complexType name="nodeType">
-        <xs:annotation>
-            <xs:documentation>
-                Graphical node type. It can contain other node types.
-                If the 'elementref' attribute is present, it should reference an ArchiMate element.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="fillColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="node" type="nodeType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-        <xs:attribute name="identifier" use="required" type="xs:ID" />
-        <xs:attribute name="elementref" type="xs:IDREF" use="optional" />
-        <xs:attribute name="x" use="required" type="xs:integer" />
-        <xs:attribute name="y" use="required" type="xs:integer" />
-        <xs:attribute name="w" use="required" type="xs:integer" />
-        <xs:attribute name="h" use="required" type="xs:integer" />
-        <xs:anyAttribute namespace ="##other" processContents ="strict" />
-    </xs:complexType>
-
-    <xs:complexType name="rgbColorType">
-        <xs:annotation>
-            <xs:documentation>
-                RGB Color type.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:attribute name="r" use="required" type="xs:unsignedByte" />
-        <xs:attribute name="g" use="required" type="xs:unsignedByte" />
-        <xs:attribute name="b" use="required" type="xs:unsignedByte" />
-    </xs:complexType>
-
-	<xs:simpleType name="viewpointsEnum">
-        <xs:annotation>
-            <xs:documentation>
-                Enumeration of Viewpoint types.
-            </xs:documentation>
-        </xs:annotation>
-	    <xs:restriction base="xs:string">
-			<xs:enumeration value="Introductory"/>
-			<xs:enumeration value="Organization"/>
-			<xs:enumeration value="Actor Co-operation"/>
-			<xs:enumeration value="Business Function"/>
-			<xs:enumeration value="Business Process"/>
-			<xs:enumeration value="Business Process Co-operation"/>
-			<xs:enumeration value="Product"/>
-			<xs:enumeration value="Application Behavior"/>
-			<xs:enumeration value="Application Co-operation"/>
-			<xs:enumeration value="Application Structure"/>
-			<xs:enumeration value="Application Usage"/>
-			<xs:enumeration value="Infrastructure"/>
-			<xs:enumeration value="Infrastructure Usage"/>
-			<xs:enumeration value="Implementation and Deployment"/>
-			<xs:enumeration value="Information Structure"/>
-			<xs:enumeration value="Service Realization"/>
-			<xs:enumeration value="Layered"/>
-			<xs:enumeration value="Landscape Map"/>
-			<xs:enumeration value="Stakeholder"/>
-			<xs:enumeration value="Goal Realization"/>
-			<xs:enumeration value="Goal Contribution"/>
-			<xs:enumeration value="Principles"/>
-			<xs:enumeration value="Requirements Realization"/>
-			<xs:enumeration value="Motivation"/>
-			<xs:enumeration value="Project"/>
-			<xs:enumeration value="Migration"/>
-			<xs:enumeration value="Implementation and Migration"/>
-	    </xs:restriction>
-	</xs:simpleType>
-
-    <!-- =========================== Business Layer Element Types ========================== -->
+    <!-- =========================== ArchiMate Business Layer Element Types ========================== -->
 
     <xs:complexType name="BusinessActor">
         <xs:complexContent>
@@ -531,7 +249,7 @@ cover pages.
         </xs:complexContent>
     </xs:complexType>
 
-    <!-- =========================== Application Layer Element Types ========================== -->
+    <!-- =========================== ArchiMate Application Layer Element Types ========================== -->
 
     <xs:complexType name="ApplicationCollaboration">
         <xs:complexContent>
@@ -575,7 +293,7 @@ cover pages.
         </xs:complexContent>
     </xs:complexType>
 
-    <!-- =========================== Technology Layer Element Types ========================== -->
+    <!-- =========================== ArchiMate Technology Layer Element Types ========================== -->
 
     <xs:complexType name="Artifact">
         <xs:complexContent>
@@ -631,7 +349,7 @@ cover pages.
         </xs:complexContent>
     </xs:complexType>
 
-    <!-- =========================== Motivation Extension Element Types ========================== -->
+    <!-- =========================== ArchiMate Motivation Extension Element Types ========================== -->
 
     <xs:complexType name="Assessment">
         <xs:complexContent>
@@ -675,7 +393,7 @@ cover pages.
         </xs:complexContent>
     </xs:complexType>
 
-    <!-- =========================== Implementation & Migration Extension Element Types ========================== -->
+    <!-- =========================== ArchiMate Implementation & Migration Extension Element Types ========================== -->
 
     <xs:complexType name="Deliverable">
         <xs:complexContent>
@@ -701,7 +419,7 @@ cover pages.
         </xs:complexContent>
     </xs:complexType>
 
-    <!-- =========================== Junction Type ========================== -->
+    <!-- =========================== ArchiMate Junction Type ========================== -->
 
     <xs:complexType name="Junction">
         <xs:annotation>
@@ -715,7 +433,39 @@ cover pages.
     </xs:complexType>
     
 
-    <!-- =========================== Relationship Types ========================== -->
+    <!-- ==================================== Relationship Types ================================= -->
+
+    <xs:complexType name="relationshipsType">
+        <xs:annotation>
+            <xs:documentation>
+                This is a container for the relationships of the model.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="relationship" type="relationshipType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="relationshipType">
+        <xs:annotation>
+            <xs:documentation>
+                A base relationship type that can be extended by concrete ArchiMate types.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="identifier" type="xs:ID" use="required" />
+        <xs:attribute name="source" type="xs:IDREF" use="required" />
+        <xs:attribute name="target" type="xs:IDREF" use="required" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+
+    <!-- =========================== ArchiMate Relationship Types ========================== -->
 
     <xs:complexType name="AccessRelationship">
         <xs:complexContent>
@@ -784,9 +534,383 @@ cover pages.
     </xs:complexType>
 
 
+    <!-- ==================================== Properties Types ================================= -->
 
-    <!-- =========================== Declaration of the Root Element ========================== -->
+    <xs:complexType name="propertiesDefinitionsType">
+        <xs:annotation>
+            <xs:documentation>
+                This is a container for all the Property definition types used globally in the model.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="propertydef" type="propertyDefinitionType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="propertyDefinitionType">
+        <xs:annotation>
+            <xs:documentation>
+                A Property definition type containg its unique identifier, name, and data type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="identifier" type="xs:ID" use="required" />
+                <xs:attribute name="name" type="xs:string" use="required" />
+                <xs:attribute name="type" type="dataType" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
 
-    <xs:element name="model" type="modelType" />
+    <xs:complexType name="propertiesType">
+        <xs:annotation>
+            <xs:documentation>
+                A container for all of the Property value instances for an element/relationship.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="property" type="propertyType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="propertyType">
+        <xs:annotation>
+            <xs:documentation>
+                A Property instance type declaring the reference to a Property definition and containing the Property value.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="value" type="langStringType" minOccurs="1" maxOccurs="unbounded" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="identifierref" type="xs:IDREF" use="required" />
+    </xs:complexType>
+    
+    <xs:simpleType name="dataType">
+        <xs:annotation>
+            <xs:documentation>
+                An enumeration of data types.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="string" />
+            <xs:enumeration value="boolean" />
+            <xs:enumeration value="currency" />
+            <xs:enumeration value="date" />
+            <xs:enumeration value="number" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <!-- ==================================== Organizational Types ================================= -->
+
+    <xs:complexType name="organizationType">
+        <xs:annotation>
+            <xs:documentation>
+                This is a container for organizing elements and relationship references in the model using items.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:choice maxOccurs="unbounded">
+            <xs:element name="item" type="itemType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="itemType">
+        <xs:annotation>
+            <xs:documentation>
+                An item element represents a structural node in a particular organization.
+                An item element may be a parent or sibling of other Item elements,
+                each one representing a unique structural node.
+                
+                An item element may reference an ArchiMate element, ArchiMate relationship,
+                or nothing (in which case it is a structural container)
+
+                An organization has no meaning unless it has at least one Item element.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="item" type="itemType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="identifier" type="xs:ID" use="optional" />
+        <xs:attribute name="identifierref" type="xs:IDREF" use="optional" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+
+    <!-- =========================== Metadata Type ========================== -->
+
+    <xs:complexType name="MetadataType">
+        <xs:annotation>
+            <xs:documentation>
+                An instance of the metadata element contains data structures
+                that declare descriptive information about a metadata element's
+                parent only.
+
+                One or more different metadata models may be declared as
+                child extensions of a metadata element.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="schema" type="xs:string" minOccurs="0" maxOccurs="1" />
+            <xs:element name="schemaversion" type="xs:string" minOccurs="0" maxOccurs="1" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- =========================== View Types ========================== -->
+
+    <xs:complexType name="viewsType">
+        <xs:annotation>
+            <xs:documentation>
+                This is a container for all of the Views in the model.
+                Must contain at least one View.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="view" type="viewType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="viewType">
+        <xs:annotation>
+            <xs:documentation>
+                Container for a View type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="node" type="nodeType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="connection" type="connectionType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="identifier" use="required" type="xs:ID" />
+        <xs:attribute name="viewpoint" use="optional" type="viewpointsEnum" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+    <xs:simpleType name="viewpointsEnum">
+        <xs:annotation>
+            <xs:documentation>
+                Enumeration of Viewpoint types.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Introductory"/>
+            <xs:enumeration value="Organization"/>
+            <xs:enumeration value="Actor Co-operation"/>
+            <xs:enumeration value="Business Function"/>
+            <xs:enumeration value="Business Process"/>
+            <xs:enumeration value="Business Process Co-operation"/>
+            <xs:enumeration value="Product"/>
+            <xs:enumeration value="Application Behavior"/>
+            <xs:enumeration value="Application Co-operation"/>
+            <xs:enumeration value="Application Structure"/>
+            <xs:enumeration value="Application Usage"/>
+            <xs:enumeration value="Infrastructure"/>
+            <xs:enumeration value="Infrastructure Usage"/>
+            <xs:enumeration value="Implementation and Deployment"/>
+            <xs:enumeration value="Information Structure"/>
+            <xs:enumeration value="Service Realization"/>
+            <xs:enumeration value="Layered"/>
+            <xs:enumeration value="Landscape Map"/>
+            <xs:enumeration value="Stakeholder"/>
+            <xs:enumeration value="Goal Realization"/>
+            <xs:enumeration value="Goal Contribution"/>
+            <xs:enumeration value="Principles"/>
+            <xs:enumeration value="Requirements Realization"/>
+            <xs:enumeration value="Motivation"/>
+            <xs:enumeration value="Project"/>
+            <xs:enumeration value="Migration"/>
+            <xs:enumeration value="Implementation and Migration"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+
+    <!-- =========================== Nodes ========================== -->
+
+    <xs:complexType name="nodeType">
+        <xs:annotation>
+            <xs:documentation>
+                Graphical node type. It can contain other node types.
+                If the 'elementref' attribute is present, it should reference an ArchiMate element.
+                
+                If the node is an ArchiMate element type, the label, documentation and properties will be determined from
+                the referenced ArchiMate element. If the node is some other type, for example a Group, then these
+                elements can be used.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="style" type="nodeStyleType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="node" type="nodeType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="identifier" use="required" type="xs:ID" />
+        <xs:attribute name="elementref" type="xs:IDREF" use="optional" />
+        <xs:attribute name="x" use="required" type="xs:integer" />
+        <xs:attribute name="y" use="required" type="xs:integer" />
+        <xs:attribute name="w" use="required" type="xs:integer" />
+        <xs:attribute name="h" use="required" type="xs:integer" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+    <xs:complexType name="nodeStyleType">
+        <xs:annotation>
+            <xs:documentation>
+                A Style type for a node.
+                It is a container for style properties such as color, font.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="fillColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="lineColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="font" type="fontType" minOccurs="0" maxOccurs="1" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+    <!-- =========================== Connections ========================== -->
+
+    <xs:complexType name="connectionType">
+        <xs:annotation>
+            <xs:documentation>
+                Graphical connection type.
+                If the 'relationshipref' attribute is present, it should reference an ArchiMate relationship.
+                
+                If the connection is an ArchiMate relationship type, the label, documentation and properties will be determined from
+                the referenced ArchiMate relationship. If the connection is some other type, for example a plain connection, then these
+                elements can be used.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="bendpoint" type="bendpointType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="style" type="connectionStyleType" minOccurs="0" maxOccurs="1"/>
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="identifier" use="required" type="xs:ID" />
+        <xs:attribute name="relationshipref" type="xs:IDREF" use="optional" />
+        <xs:attribute name="source" type="xs:IDREF" use="required" />
+        <xs:attribute name="target" type="xs:IDREF" use="required" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+    <xs:complexType name="bendpointType">
+        <xs:annotation>
+            <xs:documentation>
+                A bendpoint type for a connection.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="x" use="required" type="xs:integer" />
+        <xs:attribute name="y" use="required" type="xs:integer" />
+    </xs:complexType>
+    
+    <xs:complexType name="connectionStyleType">
+        <xs:annotation>
+            <xs:documentation>
+                A Style type for a connection.
+                It is a container for style properties such as color, font.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="lineColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="font" type="fontType" minOccurs="0" maxOccurs="1" />
+            <xs:group ref="grp.any" />
+        </xs:sequence>
+        <xs:attribute name="lineWidth" use="optional" type="xs:integer" />
+        <xs:anyAttribute namespace="##other" processContents="strict" />
+    </xs:complexType>
+
+
+    <!-- =========================== RGBA type ========================== -->
+
+    <xs:complexType name="rgbColorType">
+        <xs:annotation>
+            <xs:documentation>
+                RGB Color type.
+                The r, g, b attributes range from 0 - 255.
+                The a (alpha) transparency attribute is optional. 0 = full transparency, 100 = opaque.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="r" type="rgbValueType" use="required"/>
+        <xs:attribute name="g" type="rgbValueType" use="required"/>
+        <xs:attribute name="b" type="rgbValueType" use="required"/>
+        <xs:attribute name="a" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:unsignedByte">
+                    <xs:minInclusive value="0"/>
+                    <xs:maxInclusive value="100"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:simpleType name="rgbValueType">
+        <xs:restriction base="xs:unsignedByte">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="255"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <!-- =========================== Font type ========================== -->
+
+    <xs:complexType name="fontType">
+        <xs:annotation>
+            <xs:documentation>
+                Font type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="color" type="rgbColorType" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="optional"/>
+        <xs:attribute name="size" type="xs:decimal" use="optional"/>
+        <xs:attribute name="style" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+
+    <!-- =========================== Other Types ========================== -->
+
+    <xs:complexType name="langStringType">
+        <xs:annotation>
+            <xs:documentation>
+                A base string type for multi-language strings.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute ref="xml:lang" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+
+    <!-- ========================== Namespaced extension Group ================================= -->
+
+    <xs:group name="grp.any">
+        <xs:annotation>
+            <xs:documentation>
+                Any namespaced element from any namespace may be included within an "any" element. The
+                namespace for the imported element must be defined in the instance, and the schema must be imported.
+                The extension has a definition of "strict" i.e. they must have their own namespace.
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:any namespace="##other" processContents="strict" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:group>
 
 </xs:schema>
