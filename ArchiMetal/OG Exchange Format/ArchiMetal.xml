@@ -4141,41 +4141,49 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-13308" relationshipref="id-13300" source="id-13267" target="id-13306">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13303" relationshipref="id-13299" source="id-13268" target="id-13269">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13304" relationshipref="id-13289" source="id-13269" target="id-13301">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13305" relationshipref="id-13290" source="id-13269" target="id-13313">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13302" relationshipref="id-13288" source="id-13270" target="id-13269">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13309" relationshipref="id-13294" source="id-13306" target="id-13310">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13312" relationshipref="id-13296" source="id-13311" target="id-13270">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
       <connection identifier="id-13307" relationshipref="id-13293" source="id-13313" target="id-13306">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="11" />
         </style>
       </connection>
     </view>
@@ -4310,16 +4318,19 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-6893" relationshipref="id-6858" source="id-6877" target="id-6889">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6895" relationshipref="id-6860" source="id-6877" target="id-6890">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6894" relationshipref="id-6859" source="id-6877" target="id-6891">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-88c81723" relationshipref="id-a12e2212" source="id-6892" target="id-6877">
@@ -4335,11 +4346,13 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-6905" relationshipref="id-6864" source="id-6896" target="id-6903">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6904" relationshipref="id-6863" source="id-6903" target="id-6900">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
     </view>
@@ -4489,7 +4502,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           <lineColor r="92" g="92" b="92" />
         </style>
       </node>
-      <node identifier="id-7913" x="403" y="1022" w="1280" h="166">
+      <node identifier="id-7913" x="403" y="1022" w="1280" h="166" type="group">
         <label xml:lang="en">Level 3: Manufacturing Operations &amp; Control</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -4533,7 +4546,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-7905" x="617" y="22" w="1746" h="186">
+      <node identifier="id-7905" x="617" y="22" w="1746" h="186" type="group">
         <label xml:lang="en">Level 4: Business Planning and Logistics</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -4594,6 +4607,15 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
             <lineColor r="92" g="92" b="92" />
           </style>
         </node>
+      </node>
+      <node identifier="id-6668" x="63" y="462" w="273" h="180">
+        <label xml:lang="en">Based on ISA-95 Part 1:&#xD;
+Figure 3, Page 19,&#xD;
+Figure 5, Page 26</label>
+        <style>
+          <fillColor r="255" g="255" b="200" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
       </node>
       <connection identifier="id-6525" relationshipref="id-6506" source="id-6407" target="id-6260">
         <style>
@@ -4948,6 +4970,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-9382" relationshipref="id-9379" source="id-9297" target="id-9350">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-9433" relationshipref="id-9422" source="id-9297" target="id-9412">
@@ -4963,6 +4986,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-9383" relationshipref="id-9380" source="id-9298" target="id-9371">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-9435" relationshipref="id-9424" source="id-9299" target="id-9413">
@@ -4973,21 +4997,25 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-9308" relationshipref="id-6156" source="id-9299" target="id-9297">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-9309" relationshipref="id-6157" source="id-9299" target="id-9298">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-9381" relationshipref="id-9378" source="id-9350" target="id-9374">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-9411" relationshipref="id-9407" source="id-9371" target="id-9373">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-9430" relationshipref="id-9426" source="id-9412" target="id-9413">
@@ -5100,68 +5128,81 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-9681" relationshipref="id-9668" source="id-9472" target="id-9468">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9676" relationshipref="id-9663" source="id-9472" target="id-9461">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9678" relationshipref="id-9665" source="id-9472" target="id-9463">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9675" relationshipref="id-9662" source="id-9472" target="id-9460">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9673" relationshipref="id-9660" source="id-9472" target="id-9465">
         <bendpoint x="216" y="324" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9680" relationshipref="id-9667" source="id-9472" target="id-9466">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9677" relationshipref="id-9664" source="id-9472" target="id-9462">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9679" relationshipref="id-9666" source="id-9472" target="id-9467">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9674" relationshipref="id-9661" source="id-9472" target="id-9464">
         <bendpoint x="408" y="324" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9670" relationshipref="id-9657" source="id-9474" target="id-9469">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9669" relationshipref="id-9656" source="id-9474" target="id-9470">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9672" relationshipref="id-9659" source="id-9474" target="id-9472">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9671" relationshipref="id-9658" source="id-9474" target="id-9471">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
     </view>
@@ -5212,31 +5253,37 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-9644" relationshipref="id-9638" source="id-9602" target="id-9591">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9648" relationshipref="id-9642" source="id-9602" target="id-9595">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9649" relationshipref="id-9643" source="id-9602" target="id-9594">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9646" relationshipref="id-9640" source="id-9602" target="id-9593">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9645" relationshipref="id-9639" source="id-9602" target="id-9590">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-9647" relationshipref="id-9641" source="id-9602" target="id-9592">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
     </view>
@@ -5320,100 +5367,134 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           <lineColor r="92" g="92" b="92" />
         </style>
       </node>
+      <node identifier="id-6819" x="220" y="53" w="560" h="33">
+        <label xml:lang="en">Activity Model of Production Operations Management</label>
+        <style>
+          <fillColor r="255" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+          <font name="Segoe UI" size="14" />
+        </style>
+      </node>
+      <node identifier="id-6820" x="846" y="293" w="140" h="129">
+        <label xml:lang="en">Based on part 3 Figure 9 page 30. Specific relationships to elements of functional enterprise-control model in part 1 is not clear</label>
+        <style>
+          <fillColor r="255" g="255" b="181" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
+      </node>
       <connection identifier="id-6764" relationshipref="id-6750" source="id-6682" target="id-6680">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6817" relationshipref="id-6816" source="id-6682" target="id-6681">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6801" relationshipref="id-6796" source="id-6673" target="id-6766">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6751" relationshipref="id-6737" source="id-6673" target="id-6677">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6753" relationshipref="id-6739" source="id-6673" target="id-6675">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6754" relationshipref="id-6740" source="id-6675" target="id-6676">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6802" relationshipref="id-6797" source="id-6675" target="id-6767">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6757" relationshipref="id-6743" source="id-6676" target="id-6677">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6803" relationshipref="id-6798" source="id-6676" target="id-6768">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6755" relationshipref="id-6741" source="id-6676" target="id-6678">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6759" relationshipref="id-6745" source="id-6677" target="id-6681">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6800" relationshipref="id-6795" source="id-6679" target="id-6765">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6752" relationshipref="id-6738" source="id-6679" target="id-6677">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6762" relationshipref="id-6748" source="id-6679" target="id-6681">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6763" relationshipref="id-6749" source="id-6679" target="id-6682">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6758" relationshipref="id-6744" source="id-6680" target="id-6677">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6756" relationshipref="id-6742" source="id-6680" target="id-6676">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6761" relationshipref="id-6747" source="id-6681" target="id-6682">
         <bendpoint x="506" y="804" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
       <connection identifier="id-6804" relationshipref="id-6799" source="id-6681" target="id-6680">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="12" />
         </style>
       </connection>
     </view>
@@ -5509,74 +5590,95 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           <lineColor r="92" g="92" b="92" />
         </style>
       </node>
+      <node identifier="id-7803" x="80" y="633" w="240" h="124">
+        <label xml:lang="en">This model is based on a model used internally by The Standard for CRM platform selection several years ago. Some attribution may be necessary; this needs to be further researched. Enterprise elements of the ISA functional model have been added also.</label>
+        <style>
+          <fillColor r="255" g="255" b="200" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
+      </node>
       <connection identifier="id-7487" relationshipref="id-7393" source="id-7479" target="id-7483">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7484" relationshipref="id-7390" source="id-7479" target="id-7480">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7486" relationshipref="id-7392" source="id-7479" target="id-7482">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7504" relationshipref="id-7396" source="id-7480" target="id-7490">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7501" relationshipref="id-7394" source="id-7480" target="id-7488">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7503" relationshipref="id-7395" source="id-7480" target="id-7489">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7508" relationshipref="id-7400" source="id-7482" target="id-7494">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7507" relationshipref="id-7399" source="id-7482" target="id-7493">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7509" relationshipref="id-7401" source="id-7482" target="id-7495">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7506" relationshipref="id-7398" source="id-7482" target="id-7492">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7505" relationshipref="id-7397" source="id-7482" target="id-7491">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7512" relationshipref="id-7404" source="id-7483" target="id-7498">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7510" relationshipref="id-7402" source="id-7483" target="id-7496">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7511" relationshipref="id-7403" source="id-7483" target="id-7497">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
     </view>
@@ -5618,37 +5720,49 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           <lineColor r="92" g="92" b="92" />
         </style>
       </node>
+      <node identifier="id-7893" x="174" y="36" w="691" h="88">
+        <label xml:lang="en">Enterprise Business Function Usage of CRM Application Functions</label>
+        <style>
+          <fillColor r="255" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+          <font name="Segoe UI" size="20" />
+        </style>
+      </node>
       <connection identifier="id-7847" relationshipref="id-7826" source="id-7841" target="id-7845">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-7848" relationshipref="id-7827" source="id-7843" target="id-7846">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-7849" relationshipref="id-7836" source="id-7844" target="id-7845">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-7891" relationshipref="id-7889" source="id-7844" target="id-7846">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
     </view>
     <view identifier="id-7435">
       <label xml:lang="en">05. Equipment hierarchy</label>
-      <node identifier="id-7439" x="26" y="540" w="820" h="481">
+      <node identifier="id-7439" x="26" y="540" w="820" h="481" type="group">
         <label xml:lang="en">Typical focus of Level 3 activities</label>
         <style>
           <fillColor r="225" g="225" b="225" />
           <lineColor r="92" g="92" b="92" />
           <font name="Segoe UI" size="10" style="bold" />
         </style>
-        <node identifier="id-7916" x="46" y="819" w="760" h="153">
+        <node identifier="id-7916" x="46" y="819" w="760" h="153" type="group">
           <label xml:lang="en">Actual Level 2, 1, 0 activities</label>
           <style>
             <fillColor r="225" g="225" b="225" />
@@ -5748,7 +5862,22 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </node>
         </node>
       </node>
-      <node identifier="id-7444" x="33" y="106" w="813" h="413">
+      <node identifier="id-7437" x="873" y="120" w="306" h="143">
+        <label xml:lang="en">Based on ISA-95 Part 1 Figure 3, Page 19, Figure 4, page 23. This view applies the ArchiMate definition of location "A location is defined as a conceptual point or extent in space." to machinery as well, since machinery occupies space. All machinery is assumed also to have a processing capacity, i.e. a node that can run control applications, including ones that are embedded.</label>
+        <style>
+          <fillColor r="255" g="255" b="200" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
+      </node>
+      <node identifier="id-7438" x="264" y="24" w="366" h="53">
+        <label xml:lang="en">Equipment Hierarchy</label>
+        <style>
+          <fillColor r="255" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+          <font name="Segoe UI" size="20" />
+        </style>
+      </node>
+      <node identifier="id-7444" x="33" y="106" w="813" h="413" type="group">
         <label xml:lang="en">Typical focus of Level 4 activities</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -5780,51 +5909,61 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-7467" relationshipref="id-7412" source="id-7452" target="id-7455">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7474" relationshipref="id-7419" source="id-7458" target="id-7442">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7472" relationshipref="id-7417" source="id-7455" target="id-7441">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7473" relationshipref="id-7418" source="id-7464" target="id-7443">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7471" relationshipref="id-7416" source="id-7461" target="id-7464">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7449" relationshipref="id-7411" source="id-7447" target="id-7450">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7448" relationshipref="id-7410" source="id-7447" target="id-7446">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7470" relationshipref="id-7415" source="id-7450" target="id-7452">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7468" relationshipref="id-7413" source="id-7450" target="id-7458">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
       <connection identifier="id-7469" relationshipref="id-7414" source="id-7450" target="id-7461">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="14" />
         </style>
       </connection>
     </view>
@@ -5917,66 +6056,79 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-10508" relationshipref="id-10486" source="id-10491" target="id-10502">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10509" relationshipref="id-10487" source="id-10492" target="id-10502">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10510" relationshipref="id-10488" source="id-10493" target="id-10502">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10506" relationshipref="id-10484" source="id-10494" target="id-10503">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10505" relationshipref="id-10483" source="id-10494" target="id-10504">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10507" relationshipref="id-10485" source="id-10494" target="id-10502">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10511" relationshipref="id-10489" source="id-10495" target="id-10503">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10568" relationshipref="id-10562" source="id-10496" target="id-10502">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10569" relationshipref="id-10563" source="id-10497" target="id-10502">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10570" relationshipref="id-10564" source="id-10498" target="id-10503">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10573" relationshipref="id-10567" source="id-10499" target="id-10504">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10572" relationshipref="id-10566" source="id-10500" target="id-10504">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-10571" relationshipref="id-10565" source="id-10501" target="id-10504">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
     </view>
@@ -6099,6 +6251,22 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <node identifier="id-8011" elementref="id-7991" x="60" y="413" w="133" h="68">
         <style>
           <fillColor r="181" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
+      </node>
+      <node identifier="id-7926" x="216" y="36" w="466" h="47">
+        <label xml:lang="en">Object Model Summary</label>
+        <style>
+          <fillColor r="255" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+          <font name="Segoe UI" size="20" />
+        </style>
+      </node>
+      <node identifier="id-7927" x="66" y="126" w="186" h="102">
+        <label xml:lang="en">Based on ISA-95 Part I Figure 24, page 77&#xD;
+All associations can be interpreted as right-to-left "Corresponds to a..." relation</label>
+        <style>
+          <fillColor r="255" g="255" b="200" />
           <lineColor r="92" g="92" b="92" />
         </style>
       </node>
@@ -6500,141 +6668,169 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-18744" relationshipref="id-7107" source="id-18738" target="id-18743">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18740" relationshipref="id-7106" source="id-18738" target="id-18739">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18751" relationshipref="id-9748" source="id-18739" target="id-18753">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18785" relationshipref="id-10287" source="id-18741" target="id-18756">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18749" relationshipref="id-8406" source="id-18741" target="id-18748">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18742" relationshipref="id-8213" source="id-18741" target="id-18739">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18747" relationshipref="id-8407" source="id-18741" target="id-18750">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18746" relationshipref="id-8382" source="id-18741" target="id-18745">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18752" relationshipref="id-9749" source="id-18743" target="id-18753">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18755" relationshipref="id-7174" source="id-18745" target="id-18754">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18784" relationshipref="id-10164" source="id-18745" target="id-18783">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18768" relationshipref="id-9807" source="id-18745" target="id-18767">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18772" relationshipref="id-8412" source="id-18748" target="id-18771">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18762" relationshipref="id-9775" source="id-18753" target="id-18750">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18757" relationshipref="id-8439" source="id-18753" target="id-18756">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18759" relationshipref="id-8410" source="id-18758" target="id-18748">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18761" relationshipref="id-8408" source="id-18760" target="id-18750">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18764" relationshipref="id-8488" source="id-18763" target="id-18760">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18786" relationshipref="id-10290" source="id-18765" target="id-18756">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18766" relationshipref="id-8489" source="id-18765" target="id-18760">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18770" relationshipref="id-7197" source="id-18769" target="id-18754">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18774" relationshipref="id-8460" source="id-18773" target="id-18771">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18779" relationshipref="id-8461" source="id-18777" target="id-18771">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18778" relationshipref="id-9865" source="id-18777" target="id-18760">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18780" relationshipref="id-9866" source="id-18777" target="id-18765">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18781" relationshipref="id-9867" source="id-18777" target="id-18773">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18775" relationshipref="id-9863" source="id-18782" target="id-18771">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18776" relationshipref="id-9864" source="id-18782" target="id-18758">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
     </view>
@@ -6748,91 +6944,109 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-18812" relationshipref="id-10252" source="id-18811" target="id-18807">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18814" relationshipref="id-8457" source="id-18813" target="id-18805">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18815" relationshipref="id-8458" source="id-18813" target="id-18809">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18821" relationshipref="id-9867" source="id-18813" target="id-18820">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18819" relationshipref="id-8456" source="id-18813" target="id-18816">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18818" relationshipref="id-8455" source="id-18816" target="id-18794">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18801" relationshipref="id-9749" source="id-18790" target="id-18799">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18791" relationshipref="id-7259" source="id-18790" target="id-18789">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18795" relationshipref="id-8241" source="id-18792" target="id-18794">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18793" relationshipref="id-8366" source="id-18792" target="id-18789">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18802" relationshipref="id-10184" source="id-18792" target="id-18807">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18810" relationshipref="id-8379" source="id-18794" target="id-18809">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18808" relationshipref="id-8264" source="id-18796" target="id-18805">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18817" relationshipref="id-8440" source="id-18796" target="id-18816">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18800" relationshipref="id-9775" source="id-18799" target="id-18798">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18804" relationshipref="id-7107" source="id-18803" target="id-18790">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18806" relationshipref="id-10223" source="id-18803" target="id-18792">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
       <connection identifier="id-18797" relationshipref="id-8263" source="id-18807" target="id-18796">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="11" />
         </style>
       </connection>
     </view>
@@ -7113,46 +7327,55 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-9707" relationshipref="id-7107" source="id-9701" target="id-9706">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9703" relationshipref="id-7106" source="id-9701" target="id-9702">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9755" relationshipref="id-9748" source="id-9702" target="id-9757">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9753" relationshipref="id-8406" source="id-9704" target="id-9752">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9705" relationshipref="id-8213" source="id-9704" target="id-9702">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9709" relationshipref="id-8382" source="id-9704" target="id-9708">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9751" relationshipref="id-8407" source="id-9704" target="id-9754">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9756" relationshipref="id-9749" source="id-9706" target="id-9757">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-9784" relationshipref="id-9775" source="id-9757" target="id-9754">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -7224,46 +7447,55 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-10194" relationshipref="id-9749" source="id-10168" target="id-10192">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10169" relationshipref="id-7259" source="id-10168" target="id-10167">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10188" relationshipref="id-8241" source="id-10185" target="id-10187">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10186" relationshipref="id-8366" source="id-10185" target="id-10167">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10195" relationshipref="id-10184" source="id-10185" target="id-10228">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10193" relationshipref="id-9775" source="id-10192" target="id-10191">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10225" relationshipref="id-7107" source="id-10224" target="id-10168">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10227" relationshipref="id-10223" source="id-10224" target="id-10185">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-10190" relationshipref="id-8263" source="id-10228" target="id-10189">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -8111,87 +8343,103 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-18318" relationshipref="id-6595" source="id-18291" target="id-18311">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18305" relationshipref="id-6209" source="id-18291" target="id-18299">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18306" relationshipref="id-6210" source="id-18292" target="id-18298">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18316" relationshipref="id-6593" source="id-18292" target="id-18310">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18319" relationshipref="id-6596" source="id-18292" target="id-18311">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18304" relationshipref="id-6208" source="id-18292" target="id-18299">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18312" relationshipref="id-6567" source="id-18293" target="id-18308">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18300" relationshipref="id-6204" source="id-18293" target="id-18296">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18313" relationshipref="id-6590" source="id-18294" target="id-18308">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18315" relationshipref="id-6592" source="id-18294" target="id-18309">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18302" relationshipref="id-6206" source="id-18294" target="id-18297">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18301" relationshipref="id-6205" source="id-18294" target="id-18296">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18314" relationshipref="id-6591" source="id-18295" target="id-18309">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18303" relationshipref="id-6207" source="id-18295" target="id-18298">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18317" relationshipref="id-6594" source="id-18295" target="id-18310">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-18307" relationshipref="id-6211" source="id-18295" target="id-18297">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
     </view>
     <view identifier="id-18417" viewpoint="Information Structure">
       <label xml:lang="en">05. ISA-95 messages exchanged</label>
-      <node identifier="id-18427" x="393" y="20" w="253" h="840">
+      <node identifier="id-18427" x="393" y="20" w="253" h="840" type="group">
         <label xml:lang="en">Responses from MES</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -8270,7 +8518,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </node>
         </node>
       </node>
-      <node identifier="id-18429" x="26" y="20" w="253" h="840">
+      <node identifier="id-18429" x="26" y="20" w="253" h="840" type="group">
         <label xml:lang="en">Instructions from ERP System</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -8732,89 +8980,128 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
+      <node identifier="id-6300" x="100" y="33" w="760" h="40">
+        <label xml:lang="en">Scenario: Large, urgent customer order triggers production schedule change</label>
+        <style>
+          <fillColor r="255" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+          <font name="Arial" size="16" />
+        </style>
+      </node>
+      <node identifier="id-6301" x="1093" y="793" w="286" h="88">
+        <label xml:lang="en">Add feedback loop: Communication from contol to enterprise, e.g. order status. See part 5, page 30, Figure 9 Also part 5, page 94, Table 25</label>
+        <style>
+          <fillColor r="255" g="255" b="200" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
+      </node>
+      <node identifier="id-6683" x="1066" y="353" w="233" h="73">
+        <label xml:lang="en">Messages defined in part 5</label>
+        <style>
+          <fillColor r="255" g="255" b="200" />
+          <lineColor r="92" g="92" b="92" />
+        </style>
+      </node>
       <connection identifier="id-6602" relationshipref="id-6595" source="id-6303" target="id-6572">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6317" relationshipref="id-6209" source="id-6303" target="id-6311">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6600" relationshipref="id-6593" source="id-6304" target="id-6571">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6603" relationshipref="id-6596" source="id-6304" target="id-6572">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6318" relationshipref="id-6210" source="id-6304" target="id-6310">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6316" relationshipref="id-6208" source="id-6304" target="id-6311">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6573" relationshipref="id-6567" source="id-6305" target="id-6568">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6312" relationshipref="id-6204" source="id-6305" target="id-6308">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6597" relationshipref="id-6590" source="id-6306" target="id-6568">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6599" relationshipref="id-6592" source="id-6306" target="id-6570">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6314" relationshipref="id-6206" source="id-6306" target="id-6309">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6313" relationshipref="id-6205" source="id-6306" target="id-6308">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6598" relationshipref="id-6591" source="id-6307" target="id-6570">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6315" relationshipref="id-6207" source="id-6307" target="id-6310">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6601" relationshipref="id-6594" source="id-6307" target="id-6571">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6319" relationshipref="id-6211" source="id-6307" target="id-6309">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-6323" relationshipref="id-6168" source="id-6320" target="id-6310">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
       <connection identifier="id-17644" relationshipref="id-14164" source="id-17648" target="id-17649">
@@ -8860,12 +9147,13 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-6625" relationshipref="id-6624" source="id-6615" target="id-6571">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial" size="12" />
         </style>
       </connection>
     </view>
     <view identifier="id-11168">
       <label xml:lang="en">Application architecture</label>
-      <node identifier="id-11199" x="591" y="31" w="453" h="386">
+      <node identifier="id-11199" x="591" y="31" w="453" h="386" type="group">
         <label xml:lang="en">Distribution center</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -8902,7 +9190,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-11170" x="24" y="24" w="540" h="553">
+      <node identifier="id-11170" x="24" y="24" w="540" h="553" type="group">
         <label xml:lang="en">Production center</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -8970,7 +9258,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-11196" x="589" y="444" w="240" h="133">
+      <node identifier="id-11196" x="589" y="444" w="240" h="133" type="group">
         <label xml:lang="en">HQ</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -8994,132 +9282,154 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
         <bendpoint x="888" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11208" relationshipref="id-10747" source="id-11202" target="id-11195">
         <bendpoint x="984" y="288" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11212" relationshipref="id-10748" source="id-11203" target="id-11195">
         <bendpoint x="864" y="288" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11210" relationshipref="id-10744" source="id-11205" target="id-11195">
         <bendpoint x="720" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11179" relationshipref="id-10739" source="id-11172" target="id-11195">
         <bendpoint x="276" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11178" relationshipref="id-10738" source="id-11173" target="id-11195">
         <bendpoint x="480" y="324" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11190" relationshipref="id-10755" source="id-11174" target="id-11195">
         <bendpoint x="108" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11180" relationshipref="id-10740" source="id-11175" target="id-11195">
         <bendpoint x="468" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11192" relationshipref="id-10756" source="id-11182" target="id-11193">
         <bendpoint x="252" y="492" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11189" relationshipref="id-10754" source="id-11182" target="id-11195">
         <bendpoint x="240" y="276" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11194" relationshipref="id-10757" source="id-11193" target="id-11182">
         <bendpoint x="300" y="492" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11216" relationshipref="id-10751" source="id-11198" target="id-11195">
         <bendpoint x="648" y="360" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11209" relationshipref="id-10743" source="id-11195" target="id-11205">
         <bendpoint x="672" y="156" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11211" relationshipref="id-10745" source="id-11195" target="id-11201">
         <bendpoint x="828" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11191" relationshipref="id-10742" source="id-11195" target="id-11175">
         <bendpoint x="516" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11217" relationshipref="id-10752" source="id-11195" target="id-11198">
         <bendpoint x="636" y="360" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11214" relationshipref="id-10750" source="id-11195" target="id-11202">
         <bendpoint x="948" y="276" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11188" relationshipref="id-10753" source="id-11195" target="id-11182">
         <bendpoint x="288" y="276" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11177" relationshipref="id-10737" source="id-11195" target="id-11172">
         <bendpoint x="336" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11176" relationshipref="id-10736" source="id-11195" target="id-11173">
         <bendpoint x="516" y="312" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11213" relationshipref="id-10749" source="id-11195" target="id-11203">
         <bendpoint x="828" y="276" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11181" relationshipref="id-10741" source="id-11195" target="id-11174">
         <bendpoint x="156" y="168" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -9739,51 +10049,61 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-11465" relationshipref="id-10893" source="id-11458" target="id-16758">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11475" relationshipref="id-10895" source="id-11459" target="id-16758">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11476" relationshipref="id-10896" source="id-11460" target="id-16758">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11474" relationshipref="id-10894" source="id-11461" target="id-16758">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11464" relationshipref="id-10892" source="id-11462" target="id-16758">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11472" relationshipref="id-10890" source="id-11466" target="id-11458">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11473" relationshipref="id-10891" source="id-11467" target="id-11462">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11470" relationshipref="id-10888" source="id-11468" target="id-11459">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11471" relationshipref="id-10889" source="id-11469" target="id-11460">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11483" relationshipref="id-10989" source="id-11482" target="id-11461">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -9882,96 +10202,115 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-11244" relationshipref="id-10912" source="id-11221" target="id-11222">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11246" relationshipref="id-10908" source="id-11224" target="id-11238">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11228" relationshipref="id-10916" source="id-11224" target="id-11231">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11234" relationshipref="id-10980" source="id-11225" target="id-11233">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11236" relationshipref="id-10898" source="id-11226" target="id-11235">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11253" relationshipref="id-10921" source="id-11226" target="id-11237">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11230" relationshipref="id-10918" source="id-11226" target="id-11227">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11254" relationshipref="id-10922" source="id-11227" target="id-11237">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11247" relationshipref="id-10913" source="id-11227" target="id-11235">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11255" relationshipref="id-10923" source="id-11231" target="id-11235">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11250" relationshipref="id-10915" source="id-11231" target="id-11243">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11229" relationshipref="id-10917" source="id-11231" target="id-11225">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11259" relationshipref="id-10976" source="id-11233" target="id-11238">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11232" relationshipref="id-10975" source="id-11233" target="id-11226">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11252" relationshipref="id-10920" source="id-11237" target="id-11243">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11239" relationshipref="id-10903" source="id-11238" target="id-11237">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11257" relationshipref="id-10974" source="id-11256" target="id-11222">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11248" relationshipref="id-10862" source="id-11258" target="id-11225">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17267" relationshipref="id-10919" source="id-17265" target="id-11258">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -11458,99 +11797,118 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-16771" relationshipref="id-10893" source="id-11521" target="id-16769">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16773" relationshipref="id-10895" source="id-11522" target="id-16769">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16774" relationshipref="id-10896" source="id-11523" target="id-16769">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16772" relationshipref="id-10894" source="id-11524" target="id-16769">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16770" relationshipref="id-10892" source="id-11525" target="id-16769">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11546" relationshipref="id-10979" source="id-11529" target="id-11531">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11536" relationshipref="id-10890" source="id-11529" target="id-11521">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11558" relationshipref="id-10986" source="id-11529" target="id-11555">
         <bendpoint x="132" y="372" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11537" relationshipref="id-10891" source="id-11530" target="id-11525">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11543" relationshipref="id-10977" source="id-11531" target="id-11541">
         <bendpoint x="288" y="516" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11561" relationshipref="id-10990" source="id-11531" target="id-11559">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11534" relationshipref="id-10888" source="id-11532" target="id-11522">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11535" relationshipref="id-10889" source="id-11533" target="id-11523">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11545" relationshipref="id-10978" source="id-11541" target="id-11531">
         <bendpoint x="336" y="516" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11560" relationshipref="id-10989" source="id-11559" target="id-11524">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11556" relationshipref="id-10919" source="id-16775" target="id-11555">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11553" relationshipref="id-10956" source="id-16777" target="id-11541">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11549" relationshipref="id-10970" source="id-16779" target="id-11531">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11550" relationshipref="id-10971" source="id-16779" target="id-11532">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11547" relationshipref="id-10968" source="id-16779" target="id-11530">
@@ -11558,22 +11916,25 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
         <bendpoint x="144" y="384" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11551" relationshipref="id-10972" source="id-16779" target="id-11533">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-11548" relationshipref="id-10969" source="id-16779" target="id-11529">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
     <view identifier="id-14663">
       <label xml:lang="en">Application architecture_new_1</label>
-      <node identifier="id-14665" x="48" y="36" w="486" h="533">
+      <node identifier="id-14665" x="48" y="36" w="486" h="533" type="group">
         <label xml:lang="en">Production center</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -11615,7 +11976,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-14674" x="574" y="363" w="433" h="206">
+      <node identifier="id-14674" x="574" y="363" w="433" h="206" type="group">
         <label xml:lang="en">HQ</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -11643,7 +12004,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-14679" x="568" y="36" w="446" h="266">
+      <node identifier="id-14679" x="568" y="36" w="446" h="266" type="group">
         <label xml:lang="en">Distribution center</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -11682,125 +12043,147 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
         <bendpoint x="373" y="430" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14693" relationshipref="id-14507" source="id-14667" target="id-14690">
         <bendpoint x="360" y="276" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14696" relationshipref="id-10739" source="id-14668" target="id-14690">
         <bendpoint x="156" y="288" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14701" relationshipref="id-10738" source="id-14669" target="id-14690">
         <bendpoint x="252" y="168" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14695" relationshipref="id-10755" source="id-14670" target="id-14690">
         <bendpoint x="408" y="156" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14673" relationshipref="id-14523" source="id-14672" target="id-14667">
         <bendpoint x="406" y="431" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14697" relationshipref="id-10751" source="id-14676" target="id-14690">
         <bendpoint x="888" y="323" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14699" relationshipref="id-14504" source="id-14677" target="id-14690">
         <bendpoint x="636" y="324" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14704" relationshipref="id-14524" source="id-14678" target="id-14690">
         <bendpoint x="804" y="360" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14686" relationshipref="id-14502" source="id-14681" target="id-14690">
         <bendpoint x="600" y="168" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14688" relationshipref="id-10747" source="id-14682" target="id-14690">
         <bendpoint x="900" y="168" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16175" relationshipref="id-10748" source="id-14683" target="id-14690">
         <bendpoint x="756" y="168" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14700" relationshipref="id-14505" source="id-14690" target="id-14677">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14692" relationshipref="id-14506" source="id-14690" target="id-14667">
         <bendpoint x="432" y="276" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14705" relationshipref="id-14525" source="id-14690" target="id-14678">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14698" relationshipref="id-10752" source="id-14690" target="id-14676">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14689" relationshipref="id-14503" source="id-14690" target="id-14681">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14687" relationshipref="id-10750" source="id-14690" target="id-14682">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14702" relationshipref="id-10737" source="id-14690" target="id-14668">
         <bendpoint x="204" y="288" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14703" relationshipref="id-10736" source="id-14690" target="id-14669">
         <bendpoint x="312" y="168" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16176" relationshipref="id-10749" source="id-14690" target="id-14683">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14694" relationshipref="id-10741" source="id-14690" target="id-14670">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -11929,12 +12312,18 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
         <bendpoint x="276" y="192" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Segoe UI" size="9" style="bold|italic">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
       <connection identifier="id-14633" relationshipref="id-14554" source="id-14592" target="id-14595">
         <bendpoint x="540" y="168" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Segoe UI" size="9" style="bold|italic">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
       <connection identifier="id-14601" relationshipref="id-14565" source="id-14595" target="id-14596">
@@ -11946,6 +12335,9 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
         <bendpoint x="636" y="192" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Segoe UI" size="9" style="bold|italic">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
       <connection identifier="id-14600" relationshipref="id-14559" source="id-14595" target="id-14596">
@@ -11963,17 +12355,24 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14634" relationshipref="id-14556" source="id-14595" target="id-14591">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial" size="10" style="bold|italic">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
       <connection identifier="id-14638" relationshipref="id-14564" source="id-14596" target="id-14623">
         <bendpoint x="756" y="396" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Segoe UI" size="9" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-14631" relationshipref="id-14550" source="id-14596" target="id-14605">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Segoe UI" size="9" style="bold|italic">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
       <connection identifier="id-14604" relationshipref="id-14568" source="id-14596" target="id-14598">
@@ -12162,81 +12561,97 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14749" relationshipref="id-10891" source="id-14733" target="id-14746">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14741" relationshipref="id-12933" source="id-14735" target="id-14739">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14766" relationshipref="id-10901" source="id-14736" target="id-14751">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14744" relationshipref="id-10910" source="id-14736" target="id-14737">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14747" relationshipref="id-10907" source="id-14736" target="id-14756">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14745" relationshipref="id-10911" source="id-14737" target="id-14738">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14748" relationshipref="id-10906" source="id-14737" target="id-14756">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14760" relationshipref="id-10904" source="id-14738" target="id-14753">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14743" relationshipref="id-12934" source="id-14739" target="id-14740">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14757" relationshipref="id-14561" source="id-14739" target="id-14756">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14742" relationshipref="id-10909" source="id-14740" target="id-14736">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14763" relationshipref="id-13747" source="id-14740" target="id-14754">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14761" relationshipref="id-10902" source="id-14750" target="id-14753">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14759" relationshipref="id-10897" source="id-14752" target="id-14733">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14767" relationshipref="id-10903" source="id-14756" target="id-14754">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14772" relationshipref="id-14585" source="id-14770" target="id-14739">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19199" relationshipref="id-19196" source="id-19197" target="id-14740">
@@ -12247,11 +12662,13 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-17101" relationshipref="id-10968" source="id-17099" target="id-14733">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14769" relationshipref="id-14562" source="id-17102" target="id-14770">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19198" relationshipref="id-10919" source="id-17102" target="id-19197">
@@ -12351,86 +12768,103 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-12995" relationshipref="id-12934" source="id-12993" target="id-13002">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12994" relationshipref="id-12933" source="id-12996" target="id-12993">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13000" relationshipref="id-10910" source="id-12997" target="id-12999">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13001" relationshipref="id-10911" source="id-12999" target="id-12998">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13003" relationshipref="id-10909" source="id-13002" target="id-12997">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12975" relationshipref="id-10897" source="id-13004" target="id-12991">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17235" relationshipref="id-10968" source="id-17233" target="id-12991">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12990" relationshipref="id-12922" source="id-12976" target="id-12980">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12989" relationshipref="id-12921" source="id-12976" target="id-12979">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12988" relationshipref="id-12920" source="id-12976" target="id-12978">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12987" relationshipref="id-12919" source="id-12976" target="id-12977">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12982" relationshipref="id-12918" source="id-12977" target="id-12993">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12983" relationshipref="id-10709" source="id-12977" target="id-12997">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12981" relationshipref="id-10708" source="id-12977" target="id-12996">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12984" relationshipref="id-10704" source="id-12978" target="id-13002">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12985" relationshipref="id-10707" source="id-12979" target="id-12999">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-12986" relationshipref="id-10710" source="id-12980" target="id-12998">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -12759,76 +13193,91 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-16962" relationshipref="id-10971" source="id-16958" target="id-14995">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16960" relationshipref="id-10968" source="id-16958" target="id-14997">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16963" relationshipref="id-10972" source="id-16958" target="id-14996">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16961" relationshipref="id-10969" source="id-16958" target="id-14994">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-15020" relationshipref="id-12932" source="id-16964" target="id-15005">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-15007" relationshipref="id-10890" source="id-14994" target="id-14999">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-15008" relationshipref="id-10888" source="id-14995" target="id-15001">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-15009" relationshipref="id-10889" source="id-14996" target="id-15002">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-15010" relationshipref="id-10891" source="id-14997" target="id-15004">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16954" relationshipref="id-10893" source="id-14999" target="id-16952">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16956" relationshipref="id-10895" source="id-15001" target="id-16952">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16957" relationshipref="id-10896" source="id-15002" target="id-16952">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16955" relationshipref="id-10894" source="id-15003" target="id-16952">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16953" relationshipref="id-10892" source="id-15004" target="id-16952">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-15021" relationshipref="id-12937" source="id-15005" target="id-15003">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -13040,7 +13489,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
     </view>
     <view identifier="id-19112">
       <label xml:lang="en">Layered view</label>
-      <node identifier="id-19120" x="51" y="310" w="713" h="120">
+      <node identifier="id-19120" x="51" y="310" w="713" h="120" type="group">
         <label xml:lang="en">Internal business services</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -13061,7 +13510,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-19121" x="48" y="24" w="720" h="126">
+      <node identifier="id-19121" x="48" y="24" w="720" h="126" type="group">
         <label xml:lang="en">Actors</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -13075,7 +13524,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-19127" x="48" y="170" w="720" h="126">
+      <node identifier="id-19127" x="48" y="170" w="720" h="126" type="group">
         <label xml:lang="en">External business services</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -13117,7 +13566,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-19226" x="51" y="444" w="706" h="273">
+      <node identifier="id-19226" x="51" y="444" w="706" h="273" type="group">
         <label xml:lang="en">Business processes</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -13152,7 +13601,7 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           </style>
         </node>
       </node>
-      <node identifier="id-19272" x="51" y="737" w="713" h="286">
+      <node identifier="id-19272" x="51" y="737" w="713" h="286" type="group">
         <label xml:lang="en">Applications</label>
         <style>
           <fillColor r="225" g="225" b="225" />
@@ -13190,87 +13639,104 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-19170" relationshipref="id-19166" source="id-19172" target="id-19129">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19206" relationshipref="id-19205" source="id-19207" target="id-19129">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19117" relationshipref="id-10892" source="id-19129" target="id-19125">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19118" relationshipref="id-10893" source="id-19130" target="id-19125">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19167" relationshipref="id-10895" source="id-19174" target="id-19125">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19168" relationshipref="id-10896" source="id-19175" target="id-19125">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19169" relationshipref="id-10894" source="id-19176" target="id-19125">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19257" relationshipref="id-10891" source="id-19261" target="id-19129">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19259" relationshipref="id-10986" source="id-19263" target="id-19207">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19258" relationshipref="id-10890" source="id-19263" target="id-19130">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19270" relationshipref="id-12936" source="id-19263" target="id-19268">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19267" relationshipref="id-12938" source="id-19263" target="id-19265">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19260" relationshipref="id-12937" source="id-19265" target="id-19176">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19271" relationshipref="id-12939" source="id-19268" target="id-19265">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19384" relationshipref="id-19378" source="id-19274" target="id-19340">
         <bendpoint x="240" y="888" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19374" relationshipref="id-19372" source="id-19274" target="id-19263">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19373" relationshipref="id-19371" source="id-19274" target="id-19261">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19439" relationshipref="id-19438" source="id-19274" target="id-19172">
@@ -13287,43 +13753,51 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-19382" relationshipref="id-19380" source="id-19274" target="id-19268">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19399" relationshipref="id-19398" source="id-19334" target="id-19268">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19385" relationshipref="id-19379" source="id-19334" target="id-19340">
         <bendpoint x="420" y="888" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19342" relationshipref="id-14506" source="id-19340" target="id-19334">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19387" relationshipref="id-14525" source="id-19340" target="id-19383">
         <bendpoint x="624" y="888" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19341" relationshipref="id-14505" source="id-19340" target="id-19274">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19386" relationshipref="id-14524" source="id-19383" target="id-19340">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19381" relationshipref="id-19377" source="id-19383" target="id-19265">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
     </view>
@@ -13529,66 +14003,79 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14864" relationshipref="id-10961" source="id-14847" target="id-14863">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14851" relationshipref="id-10963" source="id-14847" target="id-14849">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14860" relationshipref="id-14581" source="id-14847" target="id-14855">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14870" relationshipref="id-10957" source="id-14848" target="id-14869">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14861" relationshipref="id-14582" source="id-14848" target="id-14855">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14853" relationshipref="id-14580" source="id-14848" target="id-14850">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14858" relationshipref="id-14578" source="id-14849" target="id-14855">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14866" relationshipref="id-10958" source="id-14849" target="id-14865">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14852" relationshipref="id-10964" source="id-14849" target="id-14848">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-16473" relationshipref="id-16471" source="id-14850" target="id-16472">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14862" relationshipref="id-14583" source="id-14850" target="id-14855">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14857" relationshipref="id-14577" source="id-14854" target="id-14845">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17453" relationshipref="id-12935" source="id-17451" target="id-14845">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -13710,114 +14197,136 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
         <bendpoint x="624" y="420" />
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14895" relationshipref="id-14496" source="id-14873" target="id-14878">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14910" relationshipref="id-14530" source="id-14874" target="id-14886">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14901" relationshipref="id-14502" source="id-14875" target="id-14900">
         <bendpoint x="456" y="528" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14911" relationshipref="id-14531" source="id-14876" target="id-14885">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14909" relationshipref="id-14529" source="id-14877" target="id-14884">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14913" relationshipref="id-14532" source="id-14878" target="id-14886">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14899" relationshipref="id-14499" source="id-14878" target="id-14889">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14897" relationshipref="id-14497" source="id-14879" target="id-14877">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14898" relationshipref="id-14498" source="id-14879" target="id-14874">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14908" relationshipref="id-14507" source="id-14879" target="id-14900">
         <bendpoint x="204" y="420" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14894" relationshipref="id-14577" source="id-14880" target="id-14882">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14905" relationshipref="id-10739" source="id-14881" target="id-14900">
         <bendpoint x="252" y="528" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14887" relationshipref="id-10963" source="id-14884" target="id-14886">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14890" relationshipref="id-14580" source="id-14885" target="id-14889">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14888" relationshipref="id-10964" source="id-14886" target="id-14885">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14907" relationshipref="id-10718" source="id-14900" target="id-14876">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14904" relationshipref="id-14505" source="id-14900" target="id-14873">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14912" relationshipref="id-14506" source="id-14900" target="id-14879">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14902" relationshipref="id-14503" source="id-14900" target="id-14875">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14906" relationshipref="id-10737" source="id-14900" target="id-14881">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17501" relationshipref="id-12935" source="id-17499" target="id-14882">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -13923,61 +14432,73 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14794" relationshipref="id-10890" source="id-14776" target="id-14783">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14802" relationshipref="id-14576" source="id-14778" target="id-14793">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14797" relationshipref="id-10931" source="id-14778" target="id-14787">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14795" relationshipref="id-10945" source="id-14778" target="id-14786">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14803" relationshipref="id-10927" source="id-14779" target="id-14785">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14781" relationshipref="id-10924" source="id-14779" target="id-14780">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14801" relationshipref="id-10925" source="id-14779" target="id-14788">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14798" relationshipref="id-10929" source="id-14780" target="id-14785">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14782" relationshipref="id-10953" source="id-14780" target="id-14778">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14791" relationshipref="id-10903" source="id-14785" target="id-14790">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14799" relationshipref="id-10926" source="id-14789" target="id-14776">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14805" relationshipref="id-14579" source="id-14793" target="id-14804">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17291" relationshipref="id-10969" source="id-17289" target="id-14776">
@@ -14101,61 +14622,75 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14823" relationshipref="id-10890" source="id-14810" target="id-14817">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14822" relationshipref="id-14576" source="id-14812" target="id-14821">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14815" relationshipref="id-10924" source="id-14813" target="id-14814">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14816" relationshipref="id-10953" source="id-14814" target="id-14812">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14824" relationshipref="id-10926" source="id-14819" target="id-14810">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14832" relationshipref="id-14579" source="id-14821" target="id-14837">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14831" relationshipref="id-14491" source="id-14825" target="id-14828">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
       <connection identifier="id-14830" relationshipref="id-14490" source="id-14825" target="id-14827">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14833" relationshipref="id-14492" source="id-14826" target="id-14825">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14834" relationshipref="id-14493" source="id-14827" target="id-14814">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14835" relationshipref="id-14494" source="id-14828" target="id-14813">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14836" relationshipref="id-14495" source="id-14828" target="id-14812">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-19517" relationshipref="id-19512" source="id-19514" target="id-14826">
@@ -14166,16 +14701,21 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-19515" relationshipref="id-19510" source="id-19514" target="id-19513">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19516" relationshipref="id-19511" source="id-19514" target="id-14840">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-17350" relationshipref="id-10969" source="id-17348" target="id-14810">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14">
+            <color r="0" g="0" b="0" />
+          </font>
         </style>
       </connection>
     </view>
@@ -14267,51 +14807,61 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14927" relationshipref="id-12937" source="id-14916" target="id-14926">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-17454" relationshipref="id-17449" source="id-14916" target="id-14921">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-14920" relationshipref="id-14584" source="id-14918" target="id-14919">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-14925" relationshipref="id-14579" source="id-14923" target="id-14916">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-14933" relationshipref="id-14527" source="id-14929" target="id-14921">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-14937" relationshipref="id-14528" source="id-14936" target="id-14929">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19484" relationshipref="id-19483" source="id-19475" target="id-14936">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19474" relationshipref="id-19472" source="id-19475" target="id-14922">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-19476" relationshipref="id-19473" source="id-19475" target="id-14931">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
       <connection identifier="id-17441" relationshipref="id-12932" source="id-17439" target="id-14916">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" style="bold|italic" />
         </style>
       </connection>
     </view>
@@ -14576,9 +15126,18 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
           <font name="Segoe UI" size="11" />
         </style>
       </node>
+      <node identifier="id-13797" x="426" y="20" w="373" h="40">
+        <label xml:lang="en">ArchiMetal CRM Vision</label>
+        <style>
+          <fillColor r="255" g="255" b="255" />
+          <lineColor r="92" g="92" b="92" />
+          <font name="Arial" size="26" style="bold" />
+        </style>
+      </node>
       <connection identifier="id-14234" relationshipref="id-14232" source="id-14226" target="id-14315">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-55f75903" relationshipref="id-5a742dc8" source="id-14241" target="id-14226">
@@ -14589,58 +15148,69 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-14295" relationshipref="id-14293" source="id-14165" target="id-14289">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14225" relationshipref="id-14224" source="id-14165" target="id-14190">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14167" relationshipref="id-14164" source="id-14165" target="id-14166">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14254" relationshipref="id-14251" source="id-14252" target="id-13818">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14313" relationshipref="id-14310" source="id-14289" target="id-14029">
         <bendpoint x="967" y="962" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14314" relationshipref="id-14311" source="id-14289" target="id-14096">
         <bendpoint x="214" y="961" />
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14302" relationshipref="id-14300" source="id-14315" target="id-14096">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14253" relationshipref="id-14250" source="id-14315" target="id-14252">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14296" relationshipref="id-14294" source="id-14315" target="id-14029">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14345" relationshipref="id-14343" source="id-13878" target="id-14331">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-14344" relationshipref="id-14342" source="id-13927" target="id-14333">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -14742,81 +15312,97 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
       <connection identifier="id-17026" relationshipref="id-10894" source="id-13012" target="id-17023">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17031" relationshipref="id-10919" source="id-17029" target="id-13039">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17032" relationshipref="id-12932" source="id-17029" target="id-13030">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13038" relationshipref="id-12935" source="id-17033" target="id-13026">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17025" relationshipref="id-10893" source="id-13009" target="id-17023">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17027" relationshipref="id-10895" source="id-13010" target="id-17023">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17028" relationshipref="id-10896" source="id-13011" target="id-17023">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-17024" relationshipref="id-10892" source="id-13013" target="id-17023">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13022" relationshipref="id-10891" source="id-13017" target="id-13013">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13020" relationshipref="id-10888" source="id-13018" target="id-13010">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13021" relationshipref="id-10889" source="id-13019" target="id-13011">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13036" relationshipref="id-12939" source="id-13026" target="id-13030">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13032" relationshipref="id-10890" source="id-13028" target="id-13009">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13033" relationshipref="id-12936" source="id-13028" target="id-13026">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13035" relationshipref="id-12938" source="id-13028" target="id-13030">
         <style>
           <lineColor r="0" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
       <connection identifier="id-13034" relationshipref="id-12937" source="id-13030" target="id-13012">
         <style>
           <lineColor r="255" g="0" b="0" />
+          <font name="Arial Narrow" size="14" />
         </style>
       </connection>
     </view>
@@ -15317,14 +15903,14 @@ The Case Study is about a fictitious manufacturer named ArchiMetal. Through high
     </view>
     <view identifier="id-6906">
       <label xml:lang="en">Paper overview</label>
-      <node identifier="id-0a5267d7" x="193" y="216" w="393" h="140">
+      <node identifier="id-0a5267d7" x="193" y="216" w="393" h="140" type="group">
         <label xml:lang="en">As-is Architecture</label>
         <style>
           <fillColor r="210" g="215" b="215" />
           <lineColor r="92" g="92" b="92" />
         </style>
       </node>
-      <node identifier="id-882ce287" x="193" y="372" w="393" h="140">
+      <node identifier="id-882ce287" x="193" y="372" w="393" h="140" type="group">
         <label xml:lang="en">To-be Architecture</label>
         <style>
           <fillColor r="210" g="215" b="215" />

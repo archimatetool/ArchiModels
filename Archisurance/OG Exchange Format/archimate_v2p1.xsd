@@ -15,8 +15,8 @@
             -------------------------
             Author:         The Open Group ArchiMate Exchange Team
             Start date:     2 May 2013
-            Revision date:  16 February 2015
-            XSD Version:    0.700
+            Revision date:  22 May 2015
+            XSD Version:    0.706
             Status:         Working Draft
             Description:    The Open Group ArchiMate Open Exchange Format
         </xs:documentation>
@@ -45,8 +45,7 @@ Open Group to make any specific products available.
 
 The ArchiMate Model Exchange File Format is being
 implemented in two phases. This Snapshot is for Phase
-1 and excludes the detailed visual layout (denoted as
-Level 4 below)  which will be included in Phase 2.
+2 and includes the detailed visual layout.
 
 It is a starting point and therefore open to debate and improvement!
             
@@ -550,7 +549,7 @@ cover pages.
     <xs:complexType name="propertyDefinitionType">
         <xs:annotation>
             <xs:documentation>
-                A Property definition type containg its unique identifier, name, and data type.
+                A Property definition type containing its unique identifier, name, and data type.
             </xs:documentation>
         </xs:annotation>
         <xs:simpleContent>
@@ -597,6 +596,7 @@ cover pages.
             <xs:enumeration value="boolean" />
             <xs:enumeration value="currency" />
             <xs:enumeration value="date" />
+            <xs:enumeration value="time" />
             <xs:enumeration value="number" />
         </xs:restriction>
     </xs:simpleType>
@@ -737,19 +737,20 @@ cover pages.
     <xs:complexType name="nodeType">
         <xs:annotation>
             <xs:documentation>
-                Graphical node type. It can contain other node types.
-                If the 'elementref' attribute is present, it should reference an ArchiMate element.
+                Graphical node type. It can contain child node types.
                 
-                If the node is an ArchiMate element type, the label, documentation and properties will be determined from
-                the referenced ArchiMate element. If the node is some other type, for example a Group, then these
-                elements can be used.
+                If the 'elementref' attribute is present, it should reference an existing ArchiMate element.
+                
+                If the node is an ArchiMate element type, the node's label, documentation and properties may be determined
+                (i.e inherited) from those in the referenced ArchiMate element. Otherwise the node's label, documentation and properties
+                can be provided and will be additional to (or over-ride) those contained in the referenced ArchiMate element.
             </xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="label" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="style" type="nodeStyleType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="style" type="styleType" minOccurs="0" maxOccurs="1"/>
             <xs:element name="node" type="nodeType" minOccurs="0" maxOccurs="unbounded" />
             <xs:group ref="grp.any" />
         </xs:sequence>
@@ -759,24 +760,10 @@ cover pages.
         <xs:attribute name="y" use="required" type="xs:integer" />
         <xs:attribute name="w" use="required" type="xs:integer" />
         <xs:attribute name="h" use="required" type="xs:integer" />
+        <xs:attribute name="type" use="optional" type="xs:string" />
         <xs:anyAttribute namespace="##other" processContents="strict" />
     </xs:complexType>
 
-    <xs:complexType name="nodeStyleType">
-        <xs:annotation>
-            <xs:documentation>
-                A Style type for a node.
-                It is a container for style properties such as color, font.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:sequence>
-            <xs:element name="fillColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="lineColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="font" type="fontType" minOccurs="0" maxOccurs="1" />
-            <xs:group ref="grp.any" />
-        </xs:sequence>
-        <xs:anyAttribute namespace="##other" processContents="strict" />
-    </xs:complexType>
 
     <!-- =========================== Connections ========================== -->
 
@@ -784,11 +771,12 @@ cover pages.
         <xs:annotation>
             <xs:documentation>
                 Graphical connection type.
-                If the 'relationshipref' attribute is present, it should reference an ArchiMate relationship.
                 
-                If the connection is an ArchiMate relationship type, the label, documentation and properties will be determined from
-                the referenced ArchiMate relationship. If the connection is some other type, for example a plain connection, then these
-                elements can be used.
+                If the 'relationshipref' attribute is present, the connection should reference an existing ArchiMate relationship.
+                
+                If the connection is an ArchiMate relationship type, the connection's label, documentation and properties may be determined
+                (i.e inherited) from those in the referenced ArchiMate relationship. Otherwise the connection's label, documentation and properties
+                can be provided and will be additional to (or over-ride) those contained in the referenced ArchiMate relationship.
             </xs:documentation>
         </xs:annotation>
         <xs:sequence>
@@ -796,7 +784,7 @@ cover pages.
             <xs:element name="documentation" type="langStringType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="properties" type="propertiesType" minOccurs="0" maxOccurs="1" />
             <xs:element name="bendpoint" type="bendpointType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="style" type="connectionStyleType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="style" type="styleType" minOccurs="0" maxOccurs="1"/>
             <xs:group ref="grp.any" />
         </xs:sequence>
         <xs:attribute name="identifier" use="required" type="xs:ID" />
@@ -816,14 +804,18 @@ cover pages.
         <xs:attribute name="y" use="required" type="xs:integer" />
     </xs:complexType>
     
-    <xs:complexType name="connectionStyleType">
+
+    <!-- =========================== Style type ========================== -->
+
+    <xs:complexType name="styleType">
         <xs:annotation>
             <xs:documentation>
-                A Style type for a connection.
+                A Style type for a node and a connection.
                 It is a container for style properties such as color, font.
             </xs:documentation>
         </xs:annotation>
         <xs:sequence>
+            <xs:element name="fillColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
             <xs:element name="lineColor" type="rgbColorType" minOccurs="0" maxOccurs="1" />
             <xs:element name="font" type="fontType" minOccurs="0" maxOccurs="1" />
             <xs:group ref="grp.any" />
