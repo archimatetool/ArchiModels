@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model xmlns="http://www.opengroup.org/xsd/archimate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate http://www.opengroup.org/xsd/archimate/archimate_v2p1.xsd" identifier="id-54525ee5">
+<model xmlns="http://www.opengroup.org/xsd/archimate" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate http://www.opengroup.org/xsd/archimate/archimate_v2p1.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" identifier="id-54525ee5">
   <metadata>
     <schema>Dublin Core</schema>
     <schemaversion>1.1</schemaversion>
