@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model xmlns="http://www.opengroup.org/xsd/archimate" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate archimate_v2p1.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" identifier="id-11f5304f">
+<model xmlns="http://www.opengroup.org/xsd/archimate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate http://www.opengroup.org/xsd/archimate/archimate_v2p1.xsd" identifier="id-11f5304f">
   <metadata>
     <schema>Dublin Core</schema>
     <schemaversion>1.1</schemaversion>
@@ -999,6 +999,9 @@
       <item identifierref="id-16fe3cf9" />
     </item>
   </organization>
+  <propertydefs>
+    <propertydef identifier="propid-junctionType" name="JunctionType" type="string" />
+  </propertydefs>
   <views>
     <view identifier="id-3641">
       <label xml:lang="en">Archimate View</label>
