@@ -5,4 +5,4 @@
 Planning an Open Day.
 
 ### More Information
-TBD
+A basic example.

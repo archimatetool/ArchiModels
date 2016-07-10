@@ -2,7 +2,7 @@
 
 ### Summary
 
-This is a collection of ArchiMate® models in native Archi file format and in The Open Group's ArchiMate Exchange file format.
+This is a collection of ArchiMate® model files in The Open Group's ArchiMate Exchange file format. Archi format files  (*.archimate) are also included for reference.
 
 ### Links
 
