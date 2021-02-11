@@ -1,13 +1,15 @@
 # ArchiMate® Example Models
 
-### Summary
+### Notice
 
-This is a collection of ArchiMate® model files in The Open Group's ArchiMate Exchange file format. Archi format files  (*.archimate) are also included for reference.
+This repository is no longer maintained and has been archived. The models here are outdated.
+
+Instead, please check out the [ArchiMate User Community](https://community.opengroup.org/archimate-user-community).
 
 ### Links
 
-[Archi Website](http://www.archimatetool.com)  
-[The Open Group ArchiMate Exchange File Format](http://www.opengroup.org/subjectareas/enterprise/archimate/model-exchange-file-format)  
+[Archi Website](https://www.archimatetool.com)  
+[The Open Group ArchiMate Exchange File Format](https://www.opengroup.org/open-group-archimate-model-exchange-file-format)  
 
 #### Notes
 ArchiMate® is an open and independent Enterprise Architecture modelling language that supports the description, analysis and visualisation of architecture within and across business domains. ArchiMate® is a registered trademark of The Open Group.
